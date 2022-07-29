@@ -8,12 +8,12 @@ public class ForDemo1 {
 //			System.out.printf("%d x %d = %d\n",i,i,i*i);
 //		}
 		//차례로 별찍기
-		for(int i=0;i<5;i++) {
-			for(int j=0;j<i+1;j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+//		for(int i=0;i<5;i++) {
+//			for(int j=0;j<i+1;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
 		//반대로 별찍기
 //		for(int i=0;i<5;i++) {
 //			for(int j=i;j<5;j++) {
