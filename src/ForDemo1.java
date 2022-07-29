@@ -44,8 +44,10 @@ public class ForDemo1 {
 //			System.out.println();
 //		}
 		//마름모
-		for(int i = 5; i>0;i--) {
-			for(int j=0;j<6;j++) {
+		System.out.print("총 몇줄입니까?");
+		int joul = sn.nextInt();
+		for(int i = joul/2; i>0;i--) {
+			for(int j=0;j<joul/2+1;j++) {
 				if(j>=i) {
 					System.out.print("*");
 				}
@@ -53,12 +55,14 @@ public class ForDemo1 {
 			}
 			System.out.println();
 		}
-		for(int i=0;i<6;i++) {
-			System.out.print("* ");
+		if(joul%2!=0) {
+			for(int i=0;i<joul/2+1;i++) {
+				System.out.print("* ");
+			}
+			System.out.println();
 		}
-		System.out.println();
-		for(int i = 0; i<5;i++) {
-			for(int j=0;j<6;j++) {
+		for(int i = 0; i<joul/2;i++) {
+			for(int j=0;j<joul/2+1;j++) {
 				if(j>i) {
 					System.out.print("*");
 				}
